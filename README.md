@@ -45,6 +45,23 @@ npm run web
    npm run ios
    ```
 
+### Android Expo Prebuild,  Build and Preview
+1. Preuild
+   ```bash
+   npx expo prebuild
+   ```
+
+2. Build
+   ```bash
+    eas build --profile=development --platform=android
+   ```
+
+3. Build Preview
+   ```bash
+    eas build --profile=preview --platform=android
+   ```
+### Install Preview Build on a Android Device
+Down load the preview build from Expo and install it on your Android device.
 
 ## Medplum Login
 
