@@ -10,7 +10,8 @@ polyfillMedplumWebAPIs();
 const medplum = new MedplumClient({
   // Enter your Medplum connection details here
   // See MedplumClient docs for more details
-  baseUrl: 'http://localhost:8103',
+  // baseUrl: 'http://localhost:8103',
+  baseUrl: 'https://api.medplum.com',
   // ------------------------------------------------------------------------------
   // If you are testing this out with your physical Android / iOS device and not an emulator,
   // you will need to put your computer's local IP address here, for example:
